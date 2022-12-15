@@ -1,0 +1,262 @@
+.toplayer{
+    width:  100%;
+    background-color: black;
+    height: 61px;
+    
+}
+body{
+    margin: 0;
+}
+.rogicon{
+    margin-bottom: 50px;
+    width: 226px;
+    margin-left: 78px;
+    float: left;
+    margin-right: 203px;
+    
+}
+.toplinks{
+    color: white;
+    float: left;
+    margin-left: 11px;
+    margin-top: 13px;
+    width: -1px;
+    font-size: 11px;
+    font-family: roboto,Microsoft JhengHei,sans-serif;
+}
+.asus{
+    padding-left: 206px;
+    width: 117px;
+    margin-left: 975px;
+    padding-top: 11px;
+}
+.mainbody{
+    width: 100%;
+    height: 630px;
+    float: left;
+    width: 100%;
+    height: 630px;
+    background-image: url(fwebp.webp);
+    background-size: cover;
+    animation: slider 15s  linear  infinite  ;
+  
+}
+@keyframes slider{
+    0%,100%{
+        background-image: url(fwebp.webp);
+        background-position: 70%;
+        
+    }
+    25%{
+        background-image: url(fwebp2.webp);
+        background-size: cover;
+        background-position: 70%;
+        
+   }50%{
+    background-image: url(fwebp3.webp);
+    background-size: cover;
+    background-position: 70%;
+   }75%{
+    background-image: url(fwebp4.webp);
+    background-size: cover;
+    background-position: 70%;
+   }
+    
+}
+
+.reddiv{
+    width: 919px;
+    background-color: red;
+    height: 37px;
+    padding-top: -290px;
+    margin-top: -42px;
+    padding-bottom: 6px;
+    margin-bottom: 0px;
+    padding-left: 600px;
+    float: left;
+}
+.products{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: -30px;
+    padding-top: 165px;
+    font-family: roboto,Microsoft JhengHei,sans-serif;
+    font-weight: 700px;
+
+}
+.laptops{
+    background-color: white;
+    width: 250px;
+    height: 280px;
+    float: left;
+    margin-left: 40px;
+    
+}
+.motherboards{
+    background-color:white;
+    width: 250px;
+    height: 280px;
+    float: left;
+    margin-left: 10px;
+    
+
+}
+.graphicscard{
+    background-color: white;
+    width: 250px;
+    height: 280px;
+    float: left;
+    margin-left: 35px;
+    padding-left: 6px;
+    
+}
+.phones{
+    background-color:white;
+    width: 250px;
+    height: 280px;
+    float: left;
+    margin-left: 65px;
+    
+}
+.headset{
+    background-color:white;
+    width: 250px;
+    height: 280px;
+    float: left;
+    margin-left: 10px;
+    
+
+
+}
+.producttitles{
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: roboto,Microsoft JhengHei,sans-serif;
+
+}
+
+.laptops img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+  
+.laptops:hover img {
+    transform: scale(1.1);
+}
+.graphicscard img{
+    width: 100%;
+    transition:0.5s all ease-in-out ;
+}.graphicscard:hover img{
+    transform: scale(1.1);
+}
+.motherboards img{
+    transition: 0.5s all ease-in-out;
+}
+.motherboards:hover img{
+    transform: scale(1.1);
+}
+.phones img{
+    transition: 0.5s all ease-in-out;
+}
+.phones:hover img{
+    transform: scale(1.1);
+
+}
+.headset img{
+    transition: 0.5s all ease-in-out;
+}
+.headset:hover img{
+    transform: scale(1.1);
+}
+.infosect{
+    width: 100%;
+    height: 800px;
+    background-image: url(bgpattern.jpg);
+    float: left;
+    padding-top: 200px;
+    
+}
+.infosect1{
+    width: 459px;
+    height: 600px;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 1px;
+    padding-top: 20px;
+    background-image: url(infosect1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    
+    
+    
+}
+.infosect2{
+    width: 488px;
+    height: 600px;
+    background-color: aqua;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    background-image: url(infosect2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40%; 
+    
+}
+
+.infosect3{
+    width: 488px;
+    height: 600px;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 16px;
+    padding-top: 20px;
+    background-image: url(infosect3.webp);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: 40%;  
+}
+
+.learnmorebutton{
+    display: flex;
+    color: #ff3535;
+    width: 100%;
+    font-family: roboto,Microsoft JhengHei,sans-serif;
+    padding-left: 0px;
+    padding-top: 92px;
+
+}
+.rogstory{
+    width: 100%;
+    height: 360px;
+    background-color: #e30017;
+    float: left;
+    background-image: url(asus\ last\ image);
+    background-position: -1%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.footer{
+    width: 100%;
+    height: 490px;
+    background-image: url(asus\ footer\ image);
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 179%;
+}
+.footerabt{
+    color: white;
+    padding-top: 10px;
+    
+
+}
+.socialicons{
+    margin-left: 1093px;
+    margin-top: 40px;
+}
